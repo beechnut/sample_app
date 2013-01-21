@@ -1,5 +1,5 @@
 SampleApp::Application.routes.draw do
-  get "users/new"
+  resources :users # all REST actions for users now available
 
   root to: 'static_pages#home'
 
