@@ -34,6 +34,7 @@ describe "StaticPages" do
 
         it { should have_link("0 following", href: following_user_path(user)) }
         it { should have_link("1 followers", href: followers_user_path(user)) }
+      end
     end
 
   end
@@ -55,6 +56,4 @@ describe "StaticPages" do
     it { should have_selector('h1', text: 'Contact') }
     it { should have_selector 'title', :text => full_title('Contact') }
   end
-
-
 end

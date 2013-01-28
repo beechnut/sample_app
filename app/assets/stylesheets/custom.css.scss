@@ -153,12 +153,14 @@ aside {
       color: $blue;
     }
   }
-  strong{
+  strong {
     display:block;
   }
 }
 
 .user_avatars {
+  display: block;
+  clear: both;
   overflow: auto;
   margin-top: 10px;
   .gravatar {
